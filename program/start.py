@@ -53,11 +53,11 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""👋🏻 **اهلا بك {message.from_user.mention()} !**\n
-🎗 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **انا بوت استطيع تشغيل الاغاني والموسيقى في المكالمات  الصوتية! ᥀︙**
+🎗 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **انا بوت استطيع تشغيل الاغاني والموسيقى في المكالمات  الصوتية! 𝁫 :**
 
-᥀︙ **لمعرفة اوامر هذا البوت اضغط على » الاوامر الاساسية!**
+𝁫 : **لمعرفة اوامر هذا البوت اضغط على » الاوامر الاساسية!**
 
-᥀︙ **لمعرفة طريقة تشغيل هذا البوت اضغط على » طريقة التشغيل!**
+𝁫 : **لمعرفة طريقة تشغيل هذا البوت اضغط على » طريقة التشغيل!**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -82,7 +82,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "‹ لتنصيب بوت ›" ، url = "https://t.me/N_J_9"
+                        "‹ لتنصيب بوت ›" ، url = "https://t.me/s_l_3"
                     )
                 ],
             ]
@@ -104,7 +104,7 @@ async def alive(client: Client, message: Message):
             [
                 InlineKeyboardButton ( "قناة البوت" ، url = f "https://t.me/X_8_00" ) ،
                 InlineKeyboardButton(
-                    "مطور السورس" ، url = f "https://t.me/N_J_9"
+                    "مطور السورس" ، url = f "https://t.me/s_l_3"
                 ),
             ]
         ]
@@ -131,7 +131,7 @@ async def src(client: Client, message: Message):
             [
                 InlineKeyboardButton ( "قناة البوت" ، url = f "https://t.me/X_8_00" ) ،
                 InlineKeyboardButton(
-                    "مطور السورس" ، url = f "https://t.me/N_J_9"
+                    "مطور السورس" ، url = f "https://t.me/s_l_3"
                 ),
             ]
         ]
